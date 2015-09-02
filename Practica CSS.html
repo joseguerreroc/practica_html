@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<title>
+		Esto es una practica de CSS
+		</title>
+		<style>
+			/* Reglas */
+			/*Selector de elemento*/
+			h1{
+				font-family: sans-serif;
+				color: FF0000; /*Red Green Blue */
+				/*color: rgb(0, 0, 0);
+				color: rgba(0, 0, o, 7);*/
+			}
+			/*Selector de clase*/
+			.titulo_azul{
+				color: blue
+			}
+			/*Selector ID*/
+			#three{
+				color: green;
+			}
+			.primer_elemento{
+				color: gray
+			}
+			/*Selector descendiente*/
+			div span{
+				color: purple
+			}
+			div{
+				border: 3px solid black; 
+			}
+			span{
+				border: 3px solid Red; 
+			}
+			.articulo_principal span{
+				font-size: 30px 
+			}
+			.articulo_principal span:hover{
+				color: red
+			}
+			.articulo_secundario p{
+				color: yellow
+			}
+			/*
+			elemento
+			clase
+			id
+			*/
+		</style>
+	</head>
+	<body>
+		<h1>Titulo</h1>
+		<h1 class='titulo_azul'> Titulo 2 </h1>
+		<ul>
+			<li id="one">Elemento 1</li>
+			<li id="two">Elemento 2</li>
+			<li id="three"> Elemento 3</li>
+		</ul>
+		<ul>
+			<li class="primer_elemento">Segunda lista elemento uno</li>
+			<li class="primer_elemento">Segunda lista elemento dos</li>
+		</ul>
+		<span>
+			Este es un span
+		</span>
+		<span>
+		Esto es otro span
+		</span>
+
+		<div class="articulo_principal">
+			<span> Articulo principal</span>
+		</div>
+		<br>
+		<div class="articulo_secundario">
+			<span>Secundario</span>
+			<p>Este es un parrafo</p>
+		</div>
+
+		<p></p>
+	</body>
+</html>
